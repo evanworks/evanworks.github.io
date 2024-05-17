@@ -1,1 +1,1 @@
-chocolate factory: /chocolate
+Chocolate Factory v0.3.1

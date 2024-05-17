@@ -1,2 +1,2 @@
-** Home
+* Home
 chocolate factory: /chocolate

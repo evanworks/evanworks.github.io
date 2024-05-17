@@ -1,1 +1,2 @@
-my page
+** Home
+chocolate factory: /chocolate

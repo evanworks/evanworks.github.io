@@ -1,7 +1,7 @@
 I've made a couple things
 <a href="/#chocolate">Chocolate Factory</a>
 ---
-# Chocolate Factory {#chocolate}
+<h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate
 
 **Latest website release:** 

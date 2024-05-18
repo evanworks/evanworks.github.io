@@ -1,6 +1,7 @@
 I've made a couple things
+<a href="/#chocolate">Chocolate Factory</a>
 ---
-# Chocolate Factory
+# Chocolate Factory {#chocolate}
 A relaxing clicker game about making chocolate
 
 **Latest website release:** 

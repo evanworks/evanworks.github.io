@@ -1,6 +1,7 @@
 I've made a couple things
 
 [Chocolate Factory](#chocolate)
+[Shape Clicker](#shape)
 ---
 <h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate
@@ -34,3 +35,10 @@ A relaxing clicker game about making chocolate
 
 >### ALPHA v0.3.0
 >Notes: The first published version
+
+
+<h1 id="shape">Shape Clicker</h1>
+A bug-ridden clicker game about shapes
+
+**If you want to, you can play it:** 
+<a href="https://shape-clicker.superhi.hosting">evan-w-lee.github.com/chocolate-factory/chocolate</a>

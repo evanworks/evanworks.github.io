@@ -38,6 +38,7 @@ A relaxing clicker game about making chocolate
 >### ALPHA v0.3.0
 >Notes: The first published version
 
+<img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px; border: 2px solid black;">
 
 <h1 id="shape">Shape Clicker</h1>
 A bug-ridden clicker game about shapes
@@ -45,4 +46,4 @@ A bug-ridden clicker game about shapes
 **If you want to, you can play it:** 
 <a href="https://shape-clicker.superhi.hosting">shape-clicker.superhi.hosting</a>
 
-<img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px; border: 2px solid black;">
+

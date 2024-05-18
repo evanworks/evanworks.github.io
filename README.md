@@ -43,6 +43,6 @@ A relaxing clicker game about making chocolate
 A bug-ridden clicker game about shapes
 
 **If you want to, you can play it:** 
-<a href="https://shape-clicker.superhi.hosting">evan-w-lee.github.com/chocolate-factory/chocolate</a>
+<a href="https://shape-clicker.superhi.hosting">shape-clicker.superhi.hosting</a>
 
 <img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px;">

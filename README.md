@@ -44,3 +44,4 @@ A bug-ridden clicker game about shapes
 
 **If you want to, you can play it:** 
 <a href="https://shape-clicker.superhi.hosting">evan-w-lee.github.com/chocolate-factory/chocolate</a>
+<img src="/Screenshot 2024-05-18 at 9.28.08 AM.png">

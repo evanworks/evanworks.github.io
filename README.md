@@ -1,5 +1,5 @@
 I've made a couple things
-<a href="/#chocolate">Chocolate Factory</a>
+<a href="#chocolate">Chocolate Factory</a>
 ---
 <h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate

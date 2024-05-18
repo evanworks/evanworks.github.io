@@ -3,6 +3,7 @@ I've made a couple things
 [Chocolate Factory](#chocolate)
 
 [Shape Clicker](#shape)
+
 ---
 <h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate

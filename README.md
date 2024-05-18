@@ -45,4 +45,4 @@ A bug-ridden clicker game about shapes
 **If you want to, you can play it:** 
 <a href="https://shape-clicker.superhi.hosting">shape-clicker.superhi.hosting</a>
 
-<img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px;">
+<img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px; border: 2px solid black;">

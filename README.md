@@ -6,7 +6,7 @@ I've made a couple things
 
 ---
 <h1 id="chocolate">Chocolate Factory</h1>
-A relaxing clicker game about making chocolate
+A relaxing clicker game about making chocolate 
 
 **Latest website release:** 
 <a href="https://evan-w-lee.github.io/chocolate-factory/chocolate">evan-w-lee.github.com/chocolate-factory/chocolate</a>

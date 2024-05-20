@@ -27,7 +27,7 @@ A relaxing clicker game about making chocolate
 * Adjusted time the bytes menu appears to stop players going bankrupt
 * Worker project box now displays the correct value
 
-### ALPHA v0.4.0
+>### ALPHA v0.4.0
 >**FEATURES:**
 >* Added functionality to the seller change feature
 >* Added bubbles detailing the byte mining process

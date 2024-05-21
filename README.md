@@ -60,4 +60,20 @@ A bug-ridden clicker game about shapes
 
 <img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px; border: 2px solid black;">
 
+<h1 id="rapid">Rapid</h1>
+A simple search engine for the web using jQuery.
+
+**It's actually kinda cool:**
+<a href="https://rapid.superhi.hosting">rapid.superhi.hosting</a>
+
+### A brief history:
+
+Rapid was one of my first projects. It's been through many revisions, but I traced its origins back to a random project on CodePen (which I copied and branded as my own.)
+
+*Sorry, JuicyWatermelon.*
+
+I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb name) made a dumb little copy. I don't think it works, but here you go: (Don't expect too much)
+
+**A random person's search engine:**
+<a href="https://zoomplex.superhi.hosting">zoomplex.superhi.hosting</a>
 

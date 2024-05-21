@@ -66,6 +66,8 @@ A simple search engine for the web using jQuery.
 **It's actually kinda cool:**
 <a href="https://rapid.superhi.hosting">rapid.superhi.hosting</a>
 
+<img src="/Screenshot 2024-05-20 at 7.34.44 PM.png" style="width: 400px; border: 2px solid black;">
+
 ### A brief history:
 
 Rapid was one of my first projects. It's been through many revisions, but I traced its origins back to a random project on CodePen (which I copied and branded as my own.)

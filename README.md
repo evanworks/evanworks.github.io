@@ -4,6 +4,8 @@ I've made a couple things
 
 [Shape Clicker](#shape)
 
+[Rapid](#rapid)
+
 ---
 <h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate
@@ -76,7 +78,7 @@ Rapid was one of my first projects. It's been through many revisions, but I trac
 
 *Sorry, JuicyWatermelon.*
 
-I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb name) made a dumb little copy. I don't think it works, but here you go: (Don't expect too much)
+I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb name) made a dumb little copy. I don't think it works, but here you go: (Don't expect too much, it has some goofy-aaa style)
 
 **A random person's search engine:**
 <a href="https://zoomplex.superhi.hosting">zoomplex.superhi.hosting</a>

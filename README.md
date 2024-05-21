@@ -83,3 +83,4 @@ I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb nam
 **A random person's search engine:**
 <a href="https://zoomplex.superhi.hosting">zoomplex.superhi.hosting</a>
 
+I checked: yeah, it's broken.

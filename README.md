@@ -66,9 +66,9 @@ A simple search engine for the web using jQuery.
 **It's actually kinda cool:**
 <a href="https://rapid.superhi.hosting">rapid.superhi.hosting</a>
 
-<img src="/Screenshot 2024-05-20 at 7.34.25 PM.png" style="width: 600px; border: 2px solid black;">
+<img src="/Screenshot 2024-05-20 at 7.34.25 PM.png" style="width: 400px; border: 2px solid black;">
 
-<img src="/Screenshot 2024-05-20 at 7.34.44 PM.png" style="width: 400px; border: 2px solid black;">
+<img src="/Screenshot 2024-05-20 at 7.34.44 PM.png" style="width: 600px; border: 2px solid black;">
 
 ### A brief history:
 

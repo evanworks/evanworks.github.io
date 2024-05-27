@@ -7,6 +7,11 @@ I've made a couple things
 [Rapid](#rapid)
 
 ---
+
+Codepen: 
+<a href="https://codepen.io/hithere567">hithere567</a> (don't judge, I chose the name when I was nine)
+
+---
 <h1 id="chocolate">Chocolate Factory</h1>
 A relaxing clicker game about making chocolate
 

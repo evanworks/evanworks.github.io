@@ -14,7 +14,7 @@ Codepen:
 <a href="https://codepen.io/hithere567">hithere567</a> (don't judge, I chose the name when I was nine)
 
 Mail:
-<a href="@mailto:evanwarnerlee@gmail.com">evanwarnerlee@gmail.com</a>
+<a href="mailto:evanwarnerlee@gmail.com">evanwarnerlee@gmail.com</a>
 
 ---
 <h1 id="chocolate">Chocolate Factory</h1>

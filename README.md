@@ -65,10 +65,6 @@ Also, I was dumb and updated my computer with the update log not saved, so I was
 >* Fixed issue where you can't buy extra power
 
 
-**BUGS:**
-* Switched the place of milk and cacao again because now it looks weird
-* Fixed issue where you can't buy extra power
-
 >### ALPHA v0.5.0
 >**FEATURES:**
 >* Added worker pay

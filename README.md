@@ -113,6 +113,8 @@ A bug-ridden clicker game about shapes
 
 <img src="/Screenshot 2024-05-18 at 9.28.08 AM.png" style="width: 400px; border: 2px solid black;">
 
+I actually might update it more in the future. You can definitely tell it was made by a child, but it's simple and at least kind of fun. I still have some interesting ideas. It has potential.
+
 <h1 id="rapid">Rapid</h1>
 A simple search engine for the web using jQuery.
 

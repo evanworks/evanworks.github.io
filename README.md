@@ -131,7 +131,7 @@ Rapid was one of my first projects. It's been through many revisions, but I trac
 
 *Sorry, JuicyWatermelon.*
 
-I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb name) made a little copy. I don't think it works, but here you go: (Don't expect too much, it has some goofy-aaa style)
+I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb name) made a little copy. I don't think it works, but here you go: (Don't expect too much, it has some goofy-ahh style)
 
 **A random person's search engine:**
 <a href="https://zoomplex.superhi.hosting">zoomplex.superhi.hosting</a>

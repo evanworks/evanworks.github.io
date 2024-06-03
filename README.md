@@ -6,6 +6,8 @@ I've made a couple things
 
 [Rapid](#rapid)
 
+[Directory](#directory)
+
 ---
 
 Codepen: 
@@ -137,3 +139,11 @@ I did make most of it, though. My friend (KingOfSpadesXX, I know it's a dumb nam
 <a href="https://zoomplex.superhi.hosting">zoomplex.superhi.hosting</a>
 
 I checked: yeah, it's broken.
+
+<h1 id="directory">Directory</h1>
+Hosts most of my old projects. It's fun to explore, if SuperHi isn't down again :(((
+
+**Here you go:**
+<a href="https://directory.superhi.hosting">directory.superhi.hosting</a>
+
+Fun fact: this is made from a W3Schools tempate. I probably use W3Schools too much (I even used it for my newest project) but it's how I learned and that's all that matters, right?

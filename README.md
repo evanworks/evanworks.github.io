@@ -44,9 +44,6 @@ oops. Again.
 **NOTES:**
 oops.
 
-**FEATURES:**
-N/A
-
 **BUGS:**
 * Fixed fatal error where the boxes display was always visible
 * Fixed more font issues

@@ -1,3 +1,363 @@
+<style>
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img, iframe {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input, textarea, select {
+  font: inherit;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+	font-family: Arial;
+	font-size: 16px;
+	line-height: 1.5;
+	
+	background-color: #ffffff;
+	color: #333333;
+	margin: 40px auto 40px auto;
+	width: 620px;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+}
+  body {
+    background: #399071;
+  }
+  * {
+    cursor: url(cursor.png), pointer;
+  }
+  button {
+    width: 25px;
+    height: 25px;
+    background-image: url(blank.png);
+    background-size: 25px;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  button:hover {
+    background-image: url(blank-hover.png);
+  }
+  button:active {
+    background-image: url(dark-hover.png);
+  }
+  #grid {
+    line-height: 0px;
+    align-items: center;
+    position: relative;
+    left: -8px;
+    float: right;
+    width: 258px;
+    height: 258px;
+    border: 4px solid #399071;
+    outline: 4px solid #28344e;
+    background: orange;
+  }
+  #numbers-columns {
+    float: left;
+    font-family: Silkscreen, monospace;
+    font-size: 25px;
+    letter-spacing: px;
+    height: 250px;
+    width: 262px;
+    color: #dccab7;
+  }
+  #numbers {
+    padding-top: 210px;
+    width: 20px;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    padding-right: 18.75px;
+    padding-left: 7px;
+  }
+  #numbers-rows {
+    float: left;
+    font-family: Silkscreen, monospace;
+    font-size: 25px;
+    height: 262px;
+    width: 250px;
+    color: #dccab7;
+    line-height: 0.1%;
+  }
+  #numbers-2 {
+    padding-left: 233px;
+    padding-right: 5px;
+    padding-top: 12.5px;
+    padding-bottom: 13px;
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    margin: 0px;
+    /*background: green;*/
+    float: left;
+  }
+  .number1-2 {
+    padding-top: 7px;
+    background: #399071;
+  }
+  span {
+    margin: 0px;
+  }
+  .number1 {
+    padding-left: 7px;
+    background: #399071;
+  }
+  .dark {
+    background: #399071;
+  }
+  .white {
+    background: #ee9172;
+  }
+  #picross {
+    width: 555px;
+    height: 550px;
+    background: #dccab7;
+    border: 8px solid #28344e;
+    padding: 8px;
+  }
+  #score {
+    background: red;
+    float: left;
+    width: 258px;
+    height: 250px;
+  }
+  #correct {
+    background-image: url(cursor.png);
+  }
+  </style>
+  <div id="picross">
+    <div id="top-container">
+      <div id="score">
+        stuff
+      </div>
+      <div id="numbers-columns">
+        <div id="numbers" class="number1">1</div><div id="numbers" class="white">1</div><div id="numbers" class="dark">1</div><div id="numbers" class="white">1</div><div id="numbers" class="dark">1</div><div id="numbers" class="white">1</div><div id="numbers" class="dark">1</div><div id="numbers" class="white">1</div><div id="numbers" class="dark">1</div><div id="numbers" class="white">1</div>
+      </div>
+    </div>
+    <div id="bottom-container">
+      <div id="numbers-rows">
+  
+      </div>
+      <div id="grid">
+  
+      </div>
+    </div>
+  </div>
+  <script>
+  questionMark = `..######..
+  .##....##.
+  .##....##.
+  .......##.
+  ......###.
+  ....####..
+  ....##....
+  ..........
+  ....##....
+  ....##....`
+  heart = `.#.#.
+  #####
+  #####
+  .###.
+  ..#..`
+  textToGame("questionMark")
+  function textToGame(varName) {
+    console.clear()
+    untabbedLines = []
+    rows = []
+    columns = []
+    inARow = 0;
+    var lines = window[varName].split("\n");
+    for (let i = 0; i < lines.length; i++) {
+      var editLines = lines;
+      untabbedLine = editLines[i].replace("\t\t", "")
+      untabbedLines.push(untabbedLine.replace("\t\t", ""))
+    }
+    var bean
+    var untabbedColumns = []
+    for (let i = 0; i < untabbedLines.length; i++) {
+      line = []
+      for (let j = 0; j < untabbedLines.length; j++) {
+        char = untabbedLines[j]
+        line.push(char[i])
+      }
+      line = line.join("")
+      untabbedColumns.push(line);
+    }
+  
+    boardSize = lines[0].length
+    for (let i = 0; i < untabbedLines.length; i++) {
+      rows.push([]);
+    }
+    for (let i = 0; i < untabbedLines.length; i++) {
+      inARow = 0;
+      line = untabbedLines[i]
+      for (let j = 0; j < line.length; j++) {
+        if (line[j] == ".") {
+          if (inARow != 0) {
+            rows[i].push(inARow)
+          }
+          inARow = 0;
+        }
+        if (line[j] == "#") {
+          inARow += 1;
+        }
+        if (j == line.length - 1) {
+          if (inARow != 0) {
+            rows[i].push(inARow)
+          }
+          inARow = 0;
+        }
+      }
+    }
+    for (let i = 0; i < untabbedColumns.length; i++) {
+      columns.push([]);
+    }
+  
+    for (let i = 0; i < untabbedColumns.length; i++) {
+      inARow = 0;
+      line = untabbedColumns[i]
+      for (let j = 0; j < line.length; j++) {
+        if (line[j] == ".") {
+          if (inARow != 0) {
+            columns[i].push(inARow)
+          }
+          inARow = 0;
+        }
+        if (line[j] == "#") {
+          inARow += 1;
+        }
+        if (j == line.length - 1) {
+          if (inARow != 0) {
+            columns[i].push(inARow)
+          }
+          inARow = 0;
+        }
+      }
+    }
+    console.log(columns)
+    console.log(rows)
+    for (let i = 1; i < untabbedLines.length + 1; i++) {
+      const grid_row = document.createElement("div");
+      grid_row.id = "row" + i
+      const element = document.getElementById("grid");
+      element.appendChild(grid_row);
+      for (let j = 0; j < untabbedLines.length; j++) {
+        const box = document.createElement("button")
+        grid_line = untabbedLines[i-1]
+        char = grid_line[j]
+        if (char == "#") { 
+          box.id = "correct";
+        }
+  
+        const element = document.getElementById(grid_row.id)
+        element.appendChild(box)
+      } 
+    }
+    document.getElementById("grid").style.width = untabbedColumns.length * 25 + 8 +"px";
+    document.getElementById("grid").style.height = untabbedLines.length * 25 + 8 + "px";
+  }
+  
+  
+  function changeColour() {
+    var bean = event.target
+    console.log(bean.id)
+    if (bean.id == "dark") {
+      bean.style.backgroundImage = "url(blank-hover.png)"
+      console.log(bean.style.backgroundImage)
+      setTimeout(function() {
+        bean.style.backgroundImage = "url(blank.png)"
+      }, 150)
+      bean.id = "blank";
+    } else {
+      bean.style.backgroundImage = "url(dark-hover.png)"
+      console.log(bean.style.backgroundImage)
+      setTimeout(function() {
+        bean.style.backgroundImage = "url(dark.png)"
+      }, 150)
+      bean.id = "dark";
+    }
+  
+  }
+  function erase() {
+    var bean = event.target
+    if (bean.id == "x") {
+      bean.style.backgroundImage = "url(blank-hover.png)"
+      setTimeout(function() {
+        bean.style.backgroundImage = "url(blank.png)"
+      }, 200)
+      bean.id = "blank";
+    } else {
+      bean.style.backgroundImage = "url(x-hover.png)"
+      setTimeout(function() {
+        bean.style.backgroundImage = "url(x.png)"
+      }, 200)
+      bean.id = "x"
+    }
+  
+  }
+  been = document.getElementById("grid")
+  been.addEventListener('contextmenu', (event) => {
+      event.preventDefault();
+  })
+  </script>
+  
 I've made a couple things
 
 [Chocolate Factory](#chocolate)

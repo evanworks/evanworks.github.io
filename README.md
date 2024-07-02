@@ -213,6 +213,14 @@ A bug-ridden clicker game about shapes
 
 I actually might update it more in the future. You can definitely tell it was made by a child, but it's simple and at least kind of fun. I still have some interesting ideas. It has potential.
 
+<h1 id="fishing">Python Fishing</h1>
+
+A python fishing game. I promise I'll finish it someday.
+
+## To play:
+Go to <a href="https://www.online-python.com/">Online Python</a> and copy the contents of `fishing.py` into the code editor. Click **run** and click on the arrows at the bottom of the terminal sidebar to make the game fullscreen.
+
+
 <h1 id="rapid">Rapid</h1>
 A simple search engine for the web using jQuery.
 

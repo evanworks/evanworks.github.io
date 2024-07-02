@@ -217,6 +217,8 @@ I actually might update it more in the future. You can definitely tell it was ma
 
 A python fishing game. I promise I'll finish it someday.
 
+<a href="https://github.com/evan-w-lee/fishing">github.com/evan-w-lee/fishing</a>
+
 ## To play:
 Go to <a href="https://www.online-python.com/">Online Python</a> and copy the contents of `fishing.py` into the code editor. Click **run** and click on the arrows at the bottom of the terminal sidebar to make the game fullscreen.
 

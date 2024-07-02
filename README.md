@@ -4,6 +4,9 @@ I've made a couple things
 
 [Shape Clicker](#shape)
 
+<p style="color: red;">NEW!</p>
+[Python Fishing](#fishing)
+
 [Rapid](#rapid)
 
 [Directory](#directory)

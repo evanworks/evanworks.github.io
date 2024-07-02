@@ -5,7 +5,7 @@ I've made a couple things
 [Shape Clicker](#shape)
 
 
-[Python Fishing](#fishing) <span style="font-weight: 900; color: red;">NEW!</span>
+<span style="font-weight: 900; color: red;">NEW!</span> [Python Fishing](#fishing) 
 
 [Rapid](#rapid)
 

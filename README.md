@@ -34,7 +34,7 @@ _New update every week!_
 
 ## Versions
 
-### ALPHA v0.10.1
+### ALPHA v0.10.1 (7/20/24)
 
 **NOTES:**
 I am very smart. 
@@ -44,7 +44,7 @@ I am very smart.
 * Removed unused and untested feature
 
 
-### ALPHA v0.10.0 (-/-/24)
+### ALPHA v0.10.0 (7/20/24)
 
 **NOTES:**
 Oops. Looks like I forgot about Chocolate Factory for a month or so. The next update: A second information upgrade and a fix to the weird byte mining power thing

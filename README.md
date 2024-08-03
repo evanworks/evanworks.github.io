@@ -1,6 +1,5 @@
 I've made a couple things
 
-[comment:] <> (<span style="font-weight: 900; color: orange;">RECENT UPDATE!</span>)
 [Chocolate Factory](#chocolate)
 
 [Shape Clicker](#shape)
@@ -307,3 +306,5 @@ Hosts most of my old projects. It's fun to explore, if SuperHi isn't down again 
 <a href="https://directory.superhi.hosting">directory.superhi.hosting</a>
 
 Fun fact: this is made from a W3Schools tempate. I probably use W3Schools too much (I even used it for my newest project) but it's how I learned and that's all that matters, right?
+
+<span style="font-weight: 900; color: orange;">RECENT UPDATE!

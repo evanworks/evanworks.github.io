@@ -1,11 +1,13 @@
 I've made a couple things
 
-<span style="font-weight: 900; color: orange;">RECENT UPDATE!</span> [Chocolate Factory](#chocolate)
+<!--><span style="font-weight: 900; color: orange;">RECENT UPDATE!</span>
+[Chocolate Factory](#chocolate)
 
 [Shape Clicker](#shape)
 
+[Python Fishing](#fishing) 
 
-<span style="font-weight: 900; color: red;">NEW!</span> [Python Fishing](#fishing) 
+<span style="font-weight: 900; color: red;">NEW!</span> [ASCII Blackjack](#blackjack)
 
 [Rapid](#rapid)
 
@@ -267,6 +269,13 @@ A python fishing game. I promise I'll finish it someday.
 ## To play:
 Go to <a href="https://www.online-python.com/">Online Python</a> and copy the contents of `fishing.py` into the code editor. Click **run** and click on the arrows at the bottom of the terminal sidebar to make the game fullscreen.
 
+<h1 id="blackjack">ASCII Blackjack</h1>
+A blackjack game made with sweat, ascii art and tears.
+
+I plan to finish it someday because it's actually fun to play
+
+**Play it here:**
+<a href="https://ascii-blackjack.superhi.hosting">ascii-blackjack.superhi.hosting</a>
 
 <h1 id="rapid">Rapid</h1>
 A simple search engine for the web using jQuery.

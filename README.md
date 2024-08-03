@@ -1,6 +1,6 @@
 I've made a couple things
 
-<!--><span style="font-weight: 900; color: orange;">RECENT UPDATE!</span>
+[comment:] <> (<span style="font-weight: 900; color: orange;">RECENT UPDATE!</span>)
 [Chocolate Factory](#chocolate)
 
 [Shape Clicker](#shape)

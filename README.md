@@ -275,12 +275,11 @@ A blackjack game made with sweat, ascii art and tears.
 **Play it here:**
 <a href="https://evan-w-lee.github.io/ascii-blackjack">evan-w-lee.github.io/ascii-blackjack</a>
 
+### 08-03-24_1
+Fixed strange messages and glitchy finishes, greyed out buttons when player stands
 
 ### 08-03-24
 Changed layout, added terminal
-
-### 08-03-24_1
-Fixed strange messages and glitchy finishes, greyed out buttons when player stands
 
 <h1 id="rapid">Rapid</h1>
 A simple search engine for the web using jQuery.

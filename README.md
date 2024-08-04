@@ -271,10 +271,11 @@ Go to <a href="https://www.online-python.com/">Online Python</a> and copy the co
 <h1 id="blackjack">ASCII Blackjack</h1>
 A blackjack game made with sweat, ascii art and tears.
 
-I plan to finish it someday because it's actually fun to play
-
 **Play it here:**
 <a href="https://ascii-blackjack.superhi.hosting">ascii-blackjack.superhi.hosting</a>
+
+### 08-03-24
+Changed layout, added terminal
 
 <h1 id="rapid">Rapid</h1>
 A simple search engine for the web using jQuery.

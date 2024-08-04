@@ -271,6 +271,7 @@ Go to <a href="https://www.online-python.com/">Online Python</a> and copy the co
 <h1 id="blackjack">ASCII Blackjack</h1>
 A blackjack game made with sweat, ascii art and tears.
 <br/>
+
 **Play it here:**
 <a href="https://evan-w-lee.github.io/ascii-blackjack">evan-w-lee.github.io/ascii-blackjack</a>
 

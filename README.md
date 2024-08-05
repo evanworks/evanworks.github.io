@@ -275,6 +275,9 @@ A blackjack game made with sweat, ascii art and tears.
 **Play it here:**
 <a href="https://evan-w-lee.github.io/ascii-blackjack">evan-w-lee.github.io/ascii-blackjack</a>
 
+### 08-05-24_1
+fixed more stuff
+
 ### 08-05-24_0
 Fixed the final glitchy finishes, added money that saves after page closes
 

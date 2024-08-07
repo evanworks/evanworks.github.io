@@ -275,6 +275,12 @@ A blackjack game made with sweat, ascii art and tears.
 **Play it here:**
 <a href="https://evan-w-lee.github.io/ascii-blackjack">evan-w-lee.github.io/ascii-blackjack</a>
 
+### 08-07-24_1
+Fixed some more bugs, added a better betting system
+
+### 08-07-24_0
+Fixed some bugs, added a rudimentary betting system
+
 ### 08-05-24_0
 Made the diamond and hearts cards red, fixed card code so it doesn't always give clubs cards
 

@@ -1,6 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 body {
   background: black;
   color: white;
-  font-family: Sono;
+  font-family: Courier Prime;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+}
+#left {
+  display: inline-block;
+  border: 1px solid white;
+  width: 45vw;
+  margin-left: 5vw;
+  height: 50vw;
+  margin-top: 2vw; 
+}
+#right {
+  float: right;
+  position: relative;
+  width: 35vw;
+  margin-right: 10vw;
+  margin-top: 3vw;
+  height: 50vw;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+}
+#prev-next {
+  position: absolute;
+  top: 48vw;
+}
+#prev {
+  float: left;
+}
+#next {
+  width: 100px;
+  position: absolute;
+  left: 29vw;
 }

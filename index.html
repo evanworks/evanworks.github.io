@@ -7,20 +7,61 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <div id="left">
-      <center>
-        <img src="img/0.png" style="width: 30vw; margin-top: 10vw;">
-      </center>
-    </div>
-    <div id="right">
-      <span class="title">0. index</span>
-      <br/><br/>
-      <div>
-        Hi, I'm evan. I've made a couple things.
+    <div id="num0">
+      <div id="left">
+        <center>
+          <img src="img/0.png" style="width: 30vw; margin-top: 10vw;">
+        </center>
       </div>
-      <div id="prev-next">
-        <span class="title" id="prev">< prev</span>
-        <span class="title" id="next">next ></span>
+      <div id="right">
+        <span class="title">0. index</span>
+        <br/><br/>
+        <div>
+          Hi, I'm evan. I've made a couple things.
+        </div><br/>
+        <div>
+          You might have heard about them. If you know me in "real life", you've definitely heard of them; I talk about them a lot.
+        </div><br/>
+        <b>
+          I know a few languages:
+        </b>
+        <ul>
+          <li><b>HTML</b> (obviously I know HTML, it's an essential language to building computer programs, aka web games)</li>
+          <li><b>CSS</b> (technically I'm good at CSS because I'm not bad at CSS, but I personally believe that no one is good at css)</li>
+          <li><b>★ JavaScript</b> (the basis to almost every single one of my programs, I love JavaScript more than my gf)</li>
+          <li><b>Python</b> (gotta love python)</li>
+        </ul><br/>
+        <div>
+          You can contact me at <a href="mailto:evanwarnerlee@gmail.com">evanwarnerlee@gmail.com</a>, I'll probably, maybe respond...
+        </div><br/>
+        <div>
+          I have a Codepen too (I rarely post but have a few views) <a href="https://codepen.io/hithere567" target="_blank">https://codepen.io/hithere567</a>
+        </div>
+        <div>
+
+        </div>
+        <div id="prev-next">
+          <span class="title" id="prev">< prev</span>
+          <span class="title" id="next" onclick="document.getElementById('num1').style.display = 'block'; document.getElementById('num0').style.display = 'none';">next ></span>
+        </div>
+      </div>
+    </div>
+    <div id="num1" style="display: none;">
+      <div id="left">
+        <center>
+          <img src="img/1.png" style="width: 30vw; margin-top: 10vw;">
+        </center>
+      </div>
+      <div id="right">
+        <span class="title">1. chocolate factory</span>
+        <br/><br/>
+        <div>
+          Hi, I'm evan. I've made a couple things.
+        </div>
+        <div id="prev-next">
+          <span class="title" id="prev">< prev</span>
+          <span class="title" id="next" onclick="document.getElementById('num1').style.display = 'block'; document.getElementById('num0').style.display = 'none';">next ></span>
+        </div>
       </div>
     </div>
   </body>

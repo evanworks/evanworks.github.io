@@ -5,11 +5,10 @@ body {
   color: white;
   font-family: Courier Prime;
   font-size: 16px;
-  letter-spacing: 0.5px;
 }
 #left {
   display: inline-block;
-  border: 1px solid white;
+  border: 5px solid white;
   width: 45vw;
   margin-left: 5vw;
   height: 50vw;
@@ -38,4 +37,22 @@ body {
   width: 100px;
   position: absolute;
   left: 29vw;
+}
+#prev-next {
+  cursor: pointer;
+}
+#prev:hover, #next:hover {
+  color: lightgrey;
+}
+#prev:active, #next:active {
+  color: grey;
+}
+img {
+  border: 5px solid white;
+}
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: lightgrey;
 }

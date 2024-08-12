@@ -56,3 +56,21 @@ a {
 a:hover {
   color: lightgrey;
 }
+.game-link {
+  background:white;
+  color: black;
+  text-decoration: none;
+  padding: 3px;
+  border-radius: 5px;
+}
+ol {
+  margin-bottom: 3px;
+}
+.big {
+  background:orange;
+  color: black;
+  text-decoration: none;
+  padding: 3px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+}

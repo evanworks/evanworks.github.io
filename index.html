@@ -41,7 +41,6 @@
 
         </div>
         <div id="prev-next">
-          <span class="title" id="prev">< prev</span>
           <span class="title" id="next" onclick="document.getElementById('num1').style.display = 'block'; document.getElementById('num0').style.display = 'none';">next ></span>
         </div>
       </div>
@@ -53,16 +52,89 @@
         </center>
       </div>
       <div id="right">
-        <span class="title">1. chocolate factory</span>
+        <span class="title">1. updates</span>
         <br/><br/>
         <div>
-          Hi, I'm evan. I've made a couple things.
+          I've been working on something new and I just recently released it. It's called ASCII Blackjack, made with sweat, ascii art and tears.
+        </div>
+        <ul>
+          <ol>2. <a href="#" onclick="document.getElementById('num2').style.display = 'block'; document.getElementById('num1').style.display = 'none';">Chocolate Factory</a></ol>
+          <ol>3. <a href="#" onclick="document.getElementById('num3').style.display = 'block'; document.getElementById('num1').style.display = 'none';">Shape Clicker</a></ol>
+          <ol>4. <a href="#" onclick="document.getElementById('num4').style.display = 'block'; document.getElementById('num1').style.display = 'none';">ASCII Blackjack</a> <span class="big">NEW!</span></ol>
+        </ul><br/>
+        <div>
+          More projects on my codepen: <a href="https://codepen.io/hithere567" target="_blank">https://codepen.io/hithere567</a>
+        </div>
+        <div>
+
         </div>
         <div id="prev-next">
-          <span class="title" id="prev">< prev</span>
-          <span class="title" id="next" onclick="document.getElementById('num1').style.display = 'block'; document.getElementById('num0').style.display = 'none';">next ></span>
+          <span class="title" id="prev" onclick="document.getElementById('num0').style.display = 'block'; document.getElementById('num1').style.display = 'none';">< prev</span>
+          <span class="title" id="next" onclick="document.getElementById('num2').style.display = 'block'; document.getElementById('num1').style.display = 'none';">next ></span>
         </div>
       </div>
     </div>
+    <div id="num2" style="display: none;">
+      <div id="left">
+        <center>
+          <img src="img/c.png" style="width: 30vw; margin-top: 10vw;">
+        </center>
+      </div>
+      <div id="right">
+        <span class="title">2. chocolate factory</span>
+        <br/><br/>
+        <div>
+          Chocolate Factory is a relaxing clicker game about making chocolate. Currently in alpha, so it may be buggy.
+        </div><br/>
+        <a class="game-link" href="evan-w-lee.github.io/chocolate-factory">evan-w-lee.github.io/chocolate-factory</a>
+        <br/><br/>
+        <div>
+          There's supposed to be a new update every week, but it really doesn't happen
+        </div><br/>
+        <b>
+          v0.10.2
+        </b>
+        <div>
+          Man, I rushed the last update.
+        </div>
+        <ul>
+          <li>Adjusted how fast byte mining happens after upgrading power</li>
+          <li>Fixed bug where the price of memory said $100 at the start</li>
+          <li>Fixed game over screen not showing and the background going black (that is a pretty cool effect though)</li>
+          <li>Fixed bug where you couldn't buy power</li>
+          <li>Fixed the weird byte mining power thing</li>
+          <li>Gaining bytes now goes at a steady rate (oh wait this is actually imposible)</li>
+        </ul>
+        <b>Pre-alpha changelog, if anyone actually cares:</b><br/>
+        <a href="https://github.com/evan-w-lee/chocolate-factory/blob/main/README.md">chocolate-factory/blob/main/README.md</a> (scroll down a little)
+        <div id="prev-next">
+          <span class="title" id="prev" onclick="document.getElementById('num1').style.display = 'block'; document.getElementById('num2').style.display = 'none';">< prev</span>
+          <span class="title" id="next" onclick="document.getElementById('num3').style.display = 'block'; document.getElementById('num2').style.display = 'none';">next ></span>
+        </div>
+      </div>
+    </div>
+    <div id="num3" style="display: none;">
+      <div id="left">
+        <center>
+          <img src="img/3.png" style="width: 30vw; margin-top: 10vw;">
+        </center>
+      </div>
+      <div id="right">
+        <span class="title">3. shape clicker</span>
+        <br/><br/>
+        <div>
+          A bug-ridden clicker game about shapes, I made it when I was younger
+        </div><br/>
+        <a class="game-link" href="https://evan-w-lee.github.io/shape-clicker">https://evan-w-lee.github.io/shape-clicker</a>
+        <br/><br/>
+        <div>
+          I'll probably update it someday, if I ever get the time
+        </div><br/>
+        <div id="prev-next">
+          <span class="title" id="prev" onclick="document.getElementById('num2').style.display = 'block'; document.getElementById('num3').style.display = 'none';">< prev</span>
+          <span class="title" id="next" onclick="document.getElementById('num4').style.display = 'block'; document.getElementById('num3').style.display = 'none';">next ></span>
+        </div>
+      </div>
+    </div>   
   </body>
 </html>

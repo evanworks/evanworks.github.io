@@ -1,3 +1,7 @@
+<html>
+<head>
+  <title>evanworks</title>
+  <meta name="description" content="I've made a couple things.">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200..800&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
@@ -52,10 +56,27 @@ img {
     width: 500px;
   }
 }
+#banner {
+  background: url(img/bg-title.png); 
+  background-size: 85px; 
+  border: 1px solid white; 
+  color: black;
+  /*animation: slide 1s linear infinite;*/
+}
+
+@keyframes slide{
+  0% {
+    background: linear-gradient(red, orange, yellow, green, blue, purple);
+  }
+  100% {
+    background: linear-gradient(purple, blue, green, yellow, orange, red);
+  }
+}
 </style>
+</head>
 <body>
 <center>
-  <div style="background: url(img/bg-title.png); background-size: 85px; border: 1px solid white; color: black;">
+  <div id="banner">
   <h1>evanworks</h1>
 <div style="margin-top: -10px; margin-bottom: 10px;"><b>I've made a couple things.</b></div>
 </div>
@@ -81,9 +102,10 @@ img {
 <div style="margin-top: 20px; margin-bottom: -3px; margin-left: 40px;">GAMES:</div>
 <div style="border: 1px solid grey; width: 400px; padding: 20px; margin-left: 40px;">
 <div><a href="https://evan-w-lee.github.io/chocolate-factory">Chocolate Factory</a> <b>-></b> A relaxing clicker game about making chocolate</div><br/>
-<div><a href="https://evan-w-lee.github.io/ascii-blackjack">ASCII Blackjack</a> <b>-></b> A blackjack game made with sweat, ASCII art, and tears.</div>
-<div></div>
-<div></div>
+<div><a href="https://evan-w-lee.github.io/ascii-blackjack">ASCII Blackjack</a> <b>-></b> A blackjack game made with sweat, ASCII art, and tears.</div><br/>
+<div><a href="https://evan-w-lee.github.io/shape-clicker">Shape Clicker</a> <b>-></b> A bug-ridden clicker about clicking shapes.</div><br/>
+<div><a href="https://evan-w-lee.github.io/carrot-clicker">Carrot Clicker</a> <b>-></b> A farming game similar to Stardew Valley, very much under construction.</div>
 </div>
 </div>
 </body>
+</html>

@@ -20,6 +20,9 @@ body {
   overflow-x:hidden;
   font-size: 16px;
 }
+* {
+  box-sizing: border-box;
+}
 a {
   color:aqua;
 }
@@ -46,23 +49,29 @@ img {
   height: 85%;
 }
 #linksandotherlinks {
-  border: 1px solid white;
   margin: 1rem;
   padding: 2rem 2rem;
   text-align: center;
-  width: 400px;
+  width: 475px;
+  margin-left: 40px;
+  margin-top: 0px;
 }
 #links {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid white;
   padding: 1rem 1rem;
   vertical-align: middle;
+  width: 200px;
+  margin-left: -75px;
+  
 }
 #otherlinks {
   display: inline-block;
-  border: 1px solid red;
+  border: 1px solid white;
   padding: 1rem 1rem;
   vertical-align: middle;
+  width: 200px;
+  margin-left: 10px;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -71,12 +80,8 @@ img {
   }
   #right {
     float: none;
-    margin-top: -400px;
-    margin-left: 40px;
-  }
-  #links {
-    margin-left: 10%;
-    width: 500px;
+    margin-top: -300px;
+    margin-left: 50px;
   }
 }
 #banner {
@@ -127,13 +132,13 @@ img {
 </div>
 <div id="linksandotherlinks">
 <div id="links">
-<a href="mailto:evanwarnerlee@gmail.com">(insert email icon here)</a><br/>
-<a href="classic">my old website if you care</a><br/>
-<a href="https://evanworks.tumblr.com" target="_blank">unused tumblr</a><br/>
-<a href="https://youtube.com/@evan-works" target="_blank">hey look, six subscribers!</a><br/><br/>
+<a href="mailto:evanwarnerlee@gmail.com">(insert email icon here)</a><hr/>
+<a href="classic">my old website if you care</a><br/><hr/>
+<a href="https://evanworks.tumblr.com" target="_blank">unused tumblr</a><hr/>
+<a href="https://youtube.com/@evan-works" target="_blank">hey look, six subscribers!</a>
 </div>
 <div id="otherlinks">
-for the no one viewing my website right now its currently in testing
+for the no one viewing my website right now its currently in testing but it was better than it was about 10 seconds ago lorem ipsum dolor sit amet avec duo or something like that play my games
 </div>
 </div>
 

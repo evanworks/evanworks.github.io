@@ -1,11 +1,16 @@
-function putStuffOnCard(card, stuff) {
-  card = document.getElementById(card);
+function putStuffOnCard(id, stuff) {
+  card = document.getElementById(id);
   card.children[0].src = stuff.img;
   card.children[1].innerText = stuff.title;
   card.children[2].innerHTML = stuff.text;
-  /*getGithubData(stuff.repo[0], stuff.repo[1]).then(data => {
+  if (id == "main-card") {
+    card.children[3].onclick = () => {
+      window.open(stuff.site, '_blank').focus();
+    }
+  }
+  getGithubData(stuff.repo[0], stuff.repo[1]).then(data => {
     if (data) document.getElementById("last-updated").innerHTML = "Last Updated " + data;
-  });*/
+  });
   
 }
 
@@ -49,12 +54,12 @@ const carrotClicker = {
   repo: ["evanworks", "carrot-clicker"]
 }
 const pythonFishing = {
-  img: "sun.png",
+  img: "sunset.png",
   title: "PYTHON FISHING",
   text: `
-  Originally an old python project. Now a relaxing retro webagame. Or something like that~ `,
+  Fish for oddities, chat with locals. Upgrade your tools, enjoy the retro graphics, and lose track of time. Fall in the lake...more than once.`,
   site: "https://evanworks.github.io/fishing",
-  repo: ["evanworks", "carrot-clicker"]
+  repo: ["evanworks", "fishing"]
 }
 
 putStuffOnCard("main-card", carrotClicker);

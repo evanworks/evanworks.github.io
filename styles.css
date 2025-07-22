@@ -31,22 +31,49 @@ body {
   background: white;
   height: 60vh;
   color: black;
-  margin-top: -50px;
+  top: calc(100px + 13.5%); /* Lock the top edge here */
+  left: 50%;
+  transform: translateX(-50%); /* Only center horizontally */
+  transform-origin: top;
+  transition-delay: 2s;
+  transition: height 0.2s;
   border: 7.5px solid transparent;
   border-image: url(border.png) 35% round;
   border-radius: 4%;
   position: absolute;
-  top: calc(100px + 50%);
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform-origin: center center;
   z-index: 1;
+  overflow: hidden;
 }
 #main-card:hover {
-  cursor: pointer;
-  
-  /*transform: translate(-50%, -50%) scale(1.05);*/
+  height: calc(60vh + 50px);
 }
+
+button {
+  position: absolute;
+  width: 99%;
+  height: 50px;
+  bottom: -50px;
+  background: black;
+  color: white;
+  outline: none;
+  border-radius: 14%;
+  border: 7.5px solid transparent;
+  border-image: url(border.png) 35% round;
+  transition: bottom 0.2s;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  z-index: 2;
+  font-family: "Jersey 10";
+  font-size: 24px;
+}
+#main-card:hover button {
+  bottom: 0%;
+}
+#main-card:hover #last-updated {
+  opacity: 0;
+}
+
 .card-img {
   width: 95%;
   display: block;
@@ -84,6 +111,7 @@ body {
   font-size: 12px;
   position: absolute;
   bottom: 1px;
+  margin-left: 4px;
 }
 
 .side-card {

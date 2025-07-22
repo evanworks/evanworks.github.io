@@ -52,7 +52,7 @@ const carrotClicker = {
   A low-stress farming game for high-stress humans. Slow growth, crisp graphics, and a lovely feeling of productivity.`,
   site: "https://evanworks.github.io/carrot-clicker",
   repo: ["evanworks", "carrot-clicker"]
-}
+} 
 const pythonFishing = {
   img: "sunset.png",
   title: "PYTHON FISHING",

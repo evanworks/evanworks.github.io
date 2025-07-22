@@ -65,7 +65,7 @@ button {
   cursor: pointer;
   z-index: 2;
   font-family: "Jersey 10";
-  font-size: 24px;
+  font-size: 24px; 
 }
 #main-card:hover button {
   bottom: 0%;

@@ -185,7 +185,7 @@ button {
     width: 40%;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #main-card {
     width: 40%;
   }
@@ -204,13 +204,39 @@ button {
   .title {
     width: 60%;
   }
+
+  #main-card {
+    height: calc(60vh + 50px);
+  }
+  #main-card button {
+    bottom: 0%;
+  }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  #main-card {
+    width: 60%;
+    height: calc(65vh + 50px);
+    margin-top: -50px;
+  }
+  .card-title {
+    letter-spacing: 0px;
+  }
+  .card-text {
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -1px;
+    word-spacing: 0px;
+    
+  }
   .arrow {
-    left: 15%;
+    left: 10%;
+    width: 50px;
   }
   #arrow-left {
-    left: 85%;
+    left: 90%;
+  }
+  .title {
+    margin-top: 10px;
   }
 }

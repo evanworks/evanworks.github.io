@@ -71,6 +71,14 @@ const asciiBlackjack = {
   site: "https://evanworks.github.io/ascii-blackjack",
   repo: ["evanworks", "ascii-blackjack"]
 }
+const asd = {
+  img: "poker.png",
+  title: "ASCII BLACKJACK",
+  text: `
+  Gamble away your life savings, or dominate the poker table by blatantly cheating. Upgrade your cards and learn unique playstyles.`,
+  site: "https://evanworks.github.io/ascii-blackjack",
+  repo: ["evanworks", "ascii-blackjack"]
+}
 
 putStuffOnCard("main-card", carrotClicker);
 putStuffOnCard("left", yeOlde);
